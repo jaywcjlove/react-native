@@ -42,3 +42,12 @@
 ![image](https://user-images.githubusercontent.com/1680273/70401053-f8b8c100-1a68-11ea-845b-e28e22d5cf10.png)
 
 </details>
+
+<details>
+<summary>Android: Gradle project sync failed.</summary>
+
+在 Android Gradle 同步失败，导致项目无法启动，只需重新同步 Gradle 即可(可能需要翻墙)，方法如下图。
+
+![image](https://user-images.githubusercontent.com/1680273/70401551-20108d80-1a6b-11ea-8883-a541ac888107.png)
+
+</details>
