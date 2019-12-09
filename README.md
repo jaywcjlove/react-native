@@ -18,8 +18,27 @@
 修改 `ios/AneConfigure/Info.plist` 配置
 
 ```xml
-	<key>CFBundleDisplayName</key>
-	<string>这里填写名称</string>
+<key>CFBundleDisplayName</key>
+<string>这里填写名称</string>
 ```
+
+</details>
+
+<details>
+<summary>修改 App 在手机上展示的图标</summary>
+
+### Android
+
+修改替换 `android/app/src/main/res/mipmap-(*)` 下面的图标
+
+图标分为 方形图标(`ic_launcher.png`) 和 圆形图标(`ic_launcher_round.png`)
+
+### iOS
+
+修改 `ios/AneConfigure/Images.xcassets/AppIcon.appiconset/Contents.json` 配置，及修改配置目录 `ios/AneConfigure/Images.xcassets/AppIcon.appiconset` 下的图标文件。
+
+通过 xcode 下图拖拽更换图标更方便。
+
+![image](https://user-images.githubusercontent.com/1680273/70401053-f8b8c100-1a68-11ea-845b-e28e22d5cf10.png)
 
 </details>
