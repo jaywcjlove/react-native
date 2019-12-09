@@ -1,4 +1,4 @@
-# react-nativre
+# react-native
 
 <details>
 <summary>修改 App 在手机上展示的名称</summary>
@@ -49,5 +49,43 @@
 在 Android Gradle 同步失败，导致项目无法启动，只需重新同步 Gradle 即可(可能需要翻墙)，方法如下图。
 
 ![image](https://user-images.githubusercontent.com/1680273/70401827-2ce1b100-1a6c-11ea-9ec0-7fe3e203ce48.png)
+
+</details>
+
+<details>
+<summary>判断 Release/Debug 用于调试</summary>
+
+### Android
+
+修改 `android/app/src/main/res/values/strings.xml` 配置
+
+```java
+// 在Android Studio项目中
+if(BuildConfig.DEBUG){
+  // debug模式
+}else{
+  // release模式
+}
+```
+
+### iOS
+
+```objective-c
+#ifdef DEBUG
+   // debug模式
+#else
+    //release 模式
+#endif
+```
+
+### React Native
+
+```js
+if (__DEV__) {
+  // debug 模式
+} else {
+  // release 模式
+}
+```
 
 </details>
