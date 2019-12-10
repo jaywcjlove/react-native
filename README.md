@@ -44,15 +44,6 @@
 </details>
 
 <details>
-<summary>Android: Gradle project sync failed.</summary>
-
-在 Android Gradle 同步失败，导致项目无法启动，只需重新同步 Gradle 即可(可能需要翻墙)，方法如下图。
-
-![image](https://user-images.githubusercontent.com/1680273/70401827-2ce1b100-1a6c-11ea-9ec0-7fe3e203ce48.png)
-
-</details>
-
-<details>
 <summary>判断 Release/Debug 用于调试</summary>
 
 ### Android
@@ -87,5 +78,42 @@ if (__DEV__) {
   // release 模式
 }
 ```
+
+</details>
+
+<details>
+<summary>打包修改 APP 版本号</summary>
+
+### Android
+
+修改 `android/app/build.gradle` 配置
+
+```java
+android {
+  .....
+  defaultConfig {
+    ....
+    versionName "2.1.1"
+  }
+}
+```
+
+### iOS
+
+修改 `ios/<应用名称>/Info.plist` 配置
+
+```xml
+<key>CFBundleShortVersionString</key>
+<string>1.2.0</string>
+```
+
+</details>
+
+<details>
+<summary>Android: Gradle project sync failed.</summary>
+
+在 Android Gradle 同步失败，导致项目无法启动，只需重新同步 Gradle 即可(可能需要翻墙)，方法如下图。
+
+![image](https://user-images.githubusercontent.com/1680273/70401827-2ce1b100-1a6c-11ea-9ec0-7fe3e203ce48.png)
 
 </details>
