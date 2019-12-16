@@ -109,6 +109,8 @@ android {
 
 </details>
 
+### 常见错误
+
 <details>
 <summary>应用反应缓慢，出现卡顿问题</summary>
 
@@ -125,5 +127,14 @@ android {
 在 Android Gradle 同步失败，导致项目无法启动，只需重新同步 Gradle 即可(可能需要翻墙)，方法如下图。
 
 ![image](https://user-images.githubusercontent.com/1680273/70401827-2ce1b100-1a6c-11ea-9ec0-7fe3e203ce48.png)
+
+</details>
+
+<details>
+<summary>iOS: library not found for -lDoubleConversion.</summary>
+
+Xcode 打卡工程文件错误，使用 `*.xcodeproj` 打开工程会报这个错误。
+
+> 请打开 `*.xcworkspace` 的工程文件，错误将得到解决。
 
 </details>
