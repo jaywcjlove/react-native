@@ -39,7 +39,7 @@
 
 通过 xcode 下图拖拽更换图标更方便。
 
-![image](https://user-images.githubusercontent.com/1680273/70401053-f8b8c100-1a68-11ea-845b-e28e22d5cf10.png)
+<img src="https://user-images.githubusercontent.com/1680273/70401053-f8b8c100-1a68-11ea-845b-e28e22d5cf10.png" width="600" />
 
 </details>
 
@@ -126,7 +126,7 @@ android {
 
 在 Android Gradle 同步失败，导致项目无法启动，只需重新同步 Gradle 即可(可能需要翻墙)，方法如下图。
 
-![image](https://user-images.githubusercontent.com/1680273/70401827-2ce1b100-1a6c-11ea-9ec0-7fe3e203ce48.png)
+<img src="https://user-images.githubusercontent.com/1680273/70401827-2ce1b100-1a6c-11ea-9ec0-7fe3e203ce48.png" width="600" />
 
 </details>
 
@@ -136,5 +136,17 @@ android {
 Xcode 打卡工程文件错误，使用 `*.xcodeproj` 打开工程会报这个错误。
 
 > 请打开 `*.xcworkspace` 的工程文件，错误将得到解决。
+
+</details>
+
+<details>
+<summary>iOS: symbol(s) not found for architecture i386.</summary>
+
+可能使用的某个包，不支持 i386 模拟器，使用 x86 模拟器或真机。
+
+> 设置 `Build Configuration` 为 `Debug` 模式下可能会解决问题。  
+> `Xcode` => `Product` => `Scheme` => `Edit Scheme...` => `Run` => `Info` => `Build Configuration`  
+
+<img src="https://user-images.githubusercontent.com/1680273/70960642-8a07e300-20ba-11ea-83ac-d4e824727323.png" width="600" />
 
 </details>
