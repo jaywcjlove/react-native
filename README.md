@@ -114,7 +114,7 @@ android {
 <details>
 <summary>应用反应缓慢，出现卡顿问题</summary>
 
-> 可能存在的问题
+可能存在的问题
 
 - 查看是否 console 日志打印过度造成。
 - React Native Debugger 页面放到最前面，浏览器窗口不要放到选项卡里面。
