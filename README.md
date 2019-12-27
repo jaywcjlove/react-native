@@ -82,6 +82,26 @@ if (__DEV__) {
 </details>
 
 <details>
+<summary>真机配置 IP 调试</summary>
+
+1. ⚠️ 首先保证真机和 pc 在同一个局域网络下。
+2. 摇晃你的实体真机，调出配置弹窗。
+3. 团队开发可以不安装开发环境。
+
+**`摇晃手机`** => `Configure Bundler` => 设置 `ip` 和 `端口`
+
+### Android 设置
+
+
+### iOS 设置
+
+设置 `Build Configuration` 为 `Debug` 模式连接真机打包 APP。  
+
+> `Xcode` => `Product` => `Scheme` => `Edit Scheme...` => `Run` => `Info` => `Build Configuration` => `Debug`
+
+</details>
+
+<details>
 <summary>打包修改 APP 版本号</summary>
 
 ### Android
