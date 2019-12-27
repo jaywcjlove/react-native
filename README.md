@@ -131,7 +131,7 @@ android {
 
 </details>
 
-### 常见错误
+## 常见错误
 
 <details>
 <summary>应用反应缓慢，出现卡顿问题</summary>
@@ -145,6 +145,8 @@ android {
 
 <details>
 <summary>Android: Gradle project sync failed.</summary>
+
+#### 问题解决方法
 
 在 Android Gradle 同步失败，导致项目无法启动，只需重新同步 Gradle 即可(可能需要翻墙)，方法如下图。
 
