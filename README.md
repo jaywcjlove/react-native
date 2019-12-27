@@ -39,7 +39,7 @@
 
 通过 xcode 下图拖拽更换图标更方便。
 
-<img src="https://user-images.githubusercontent.com/1680273/70401053-f8b8c100-1a68-11ea-845b-e28e22d5cf10.png" width="600" />
+<img src="img/img01.png" width="600" />
 
 </details>
 
@@ -146,7 +146,7 @@ android {
 
 在 Android Gradle 同步失败，导致项目无法启动，只需重新同步 Gradle 即可(可能需要翻墙)，方法如下图。
 
-<img src="https://user-images.githubusercontent.com/1680273/70401827-2ce1b100-1a6c-11ea-9ec0-7fe3e203ce48.png" width="600" />
+<img src="img/img02.png" width="600" />
 
 </details>
 
@@ -167,6 +167,6 @@ Xcode 打开工程文件错误，使用 `*.xcodeproj` 打开工程会报这个�
 > 设置 `Build Configuration` 为 `Debug` 模式下可能会解决问题。  
 > `Xcode` => `Product` => `Scheme` => `Edit Scheme...` => `Run` => `Info` => `Build Configuration`  
 
-<img src="https://user-images.githubusercontent.com/1680273/70960642-8a07e300-20ba-11ea-83ac-d4e824727323.png" width="600" />
+<img src="img/img03.png" width="600" />
 
 </details>
