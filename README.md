@@ -133,7 +133,7 @@ android {
 <details>
 <summary>iOS: library not found for -lDoubleConversion.</summary>
 
-Xcode 打卡工程文件错误，使用 `*.xcodeproj` 打开工程会报这个错误。
+Xcode 打开工程文件错误，使用 `*.xcodeproj` 打开工程会报这个错误。
 
 > 请打开 `*.xcworkspace` 的工程文件，错误将得到解决。
 
