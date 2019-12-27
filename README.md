@@ -15,7 +15,7 @@
 
 ### iOS
 
-修改 `ios/AneConfigure/Info.plist` 配置
+修改 `ios/<应用名称>/Info.plist` 配置
 
 ```xml
 <key>CFBundleDisplayName</key>
@@ -35,7 +35,7 @@
 
 ### iOS
 
-修改 `ios/AneConfigure/Images.xcassets/AppIcon.appiconset/Contents.json` 配置，及修改配置目录 `ios/AneConfigure/Images.xcassets/AppIcon.appiconset` 下的图标文件。
+修改 `ios/<应用名称>/Images.xcassets/AppIcon.appiconset/Contents.json` 配置，及修改配置目录 `ios/<应用名称>/Images.xcassets/AppIcon.appiconset` 下的图标文件。
 
 通过 xcode 下图拖拽更换图标更方便。
 
