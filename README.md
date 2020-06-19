@@ -104,6 +104,21 @@ if (__DEV__) {
 </details>
 
 <details>
+<summary>Xcode 不用数据线真机调试</summary>
+
+通过菜单 `Xcode` => `Product` => `Destination` => `Add Additional Simulators...` 打开设置界面，勾选 `Connect via network`。
+
+<img src="img/devices.png" width="600" />
+
+如果是第一次操作， 可能会需要先进行配对操作；
+
+1. 可在以上面弹出的界面中，点击左侧的设备，然后右健选`unpair device`。
+2. 然后再去勾选 `connect via network`；
+3. 这时手机上会提示信任界面，点击确认即可。
+
+</details>
+
+<details>
 <summary>打包修改 APP 版本号</summary>
 
 #### Android
