@@ -81,6 +81,20 @@ if (__DEV__) {
 
 </details>
 
+
+<details>
+<summary>开发模式弹出开发者菜单刷新应用</summary>
+
+#### Android
+
+按两次 <kbd>R</kbd> 键或从开发者菜单(<kbd>⌘</kbd><kbd>M</kbd>)中选择重新加载(Reload)以预览您的更改。
+
+#### iOS
+
+使用 <kbd>⌘</kbd><kbd>R</kbd> 让您的 IOS 模拟器重新加载本地项目，使用 <kbd>⌘</kbd><kbd>T</kbd> 弹出开发者菜单。
+
+</details>
+
 <details>
 <summary>真机配置 IP 调试</summary>
 
