@@ -96,6 +96,48 @@ if (__DEV__) {
 </details>
 
 <details>
+<summary>设置允许 HTTP 请求访问</summary>
+
+#### Android
+
+创建配置文件 `android/app/src/main/res/xml/network_security_config.xml` 内容如下：
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
+```
+
+修改配置 `android/app/src/main/AndroidManifest.xml`
+
+```diff
+<application
+  android:name=".MainApplication"
+  android:label="@string/app_name"
+  android:icon="@mipmap/ic_launcher"
+  android:roundIcon="@mipmap/ic_launcher_round"
+  android:allowBackup="false"
++  android:networkSecurityConfig="@xml/network_security_config"
+  android:theme="@style/AppTheme">
+</application>
+```
+
+#### iOS
+
+修改 `ios/<应用名称>/Info.plist` 配置
+
+```xml
+<key>NSAppTransportSecurity</key>
+<dict>
+  <key>NSAllowsArbitraryLoads</key>
+  <true/>
+</dict>
+```
+
+</details>
+
+<details>
 <summary>真机配置 IP 调试</summary>
 
 #### 配置说明
