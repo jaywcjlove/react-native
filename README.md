@@ -3,7 +3,7 @@ React Native
 ===
 <!--idoc:ignore:end-->
 
-一些 React Native 开发上遇到的文件简单记录。
+一些 React Native 开发上遇到的问题简单记录。
 
 <!--idoc:ignore:start-->
 

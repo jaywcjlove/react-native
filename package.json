@@ -3,7 +3,7 @@
   "private": true,
   "name": "react-native",
   "title": "React Native",
-  "description": "一些 React Native 开发上遇到的文件简单记录。",
+  "description": "一些 React Native 开发上遇到的问题简单记录。",
   "version": "1.0.0",
   "scripts": {
     "start": "idoc --watch",
