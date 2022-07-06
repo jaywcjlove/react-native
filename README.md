@@ -5,6 +5,26 @@ React Native
 
 一些 React Native 开发上遇到的文件简单记录。
 
+<!--idoc:ignore:start-->
+
+## 目录
+
+- [修改 App 在手机上展示的名称](#修改-app-在手机上展示的名称)
+- [修改 App 在手机上展示的图标](#修改-app-在手机上展示的图标)
+- [判断 Release/Debug 用于调试](#判断-releasedebug-用于调试)
+- [开发模式弹出开发者菜单刷新应用](#开发模式弹出开发者菜单刷新应用)
+- [设置允许 HTTP 请求访问](#设置允许-http-请求访问)
+- [真机配置 IP 调试](#真机配置-ip-调试)
+- [Xcode 不用数据线真机调试](#xcode-不用数据线真机调试)
+- [打包修改 APP 版本号](#打包修改-app-版本号)
+- [常见错误](#常见错误)
+  - [应用反应缓慢出现卡顿问题](#应用反应缓慢出现卡顿问题)
+  - [Android: Gradle project sync failed](#android-gradle-project-sync-failed)
+  - [iOS: library not found for -lDoubleConversion](#ios-library-not-found-for--ldoubleconversion)
+  - [iOS: symbol(s) not found for architecture i386](#ios-symbols-not-found-for-architecture-i386)
+
+<!--idoc:ignore:end-->
+
 ## 修改 App 在手机上展示的名称
 
 #### Android
