@@ -217,3 +217,17 @@ Xcode 打开工程文件错误，使用 `*.xcodeproj` 打开工程会报这个�
 > `Xcode` => `Product` => `Scheme` => `Edit Scheme...` => `Run` => `Info` => `Build Configuration`  
 
 <img src="img/img03.png" width="600" />
+
+## Contributors
+
+As always, thanks to our amazing contributors!
+
+<a href="https://github.com/jaywcjlove/react-native/graphs/contributors">
+  <img src="https://jaywcjlove.github.io/react-native/CONTRIBUTORS.svg" />
+</a>
+
+Made with [action-contributors](https://github.com/jaywcjlove/github-action-contributors).
+
+## License
+
+Licensed under the MIT License.
