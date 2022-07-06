@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "private": true,
+  "name": "react-native",
+  "title": "React Native",
+  "description": "一些 React Native 开发上遇到的文件简单记录。",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "idoc --watch",
+    "build": "idoc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/react-native"
+  },
+  "keywords": [
+    "react-native",
+    "tutorial"
+  ],
+  "dependencies": {
+    "idoc": "^1.21.4"
+  }
+}

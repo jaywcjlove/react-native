@@ -1,7 +1,11 @@
-# react-native
+<!--idoc:ignore:start-->
+React Native
+===
+<!--idoc:ignore:end-->
 
-<details>
-<summary>修改 App 在手机上展示的名称</summary>
+一些 React Native 开发上遇到的文件简单记录。
+
+## 修改 App 在手机上展示的名称
 
 #### Android
 
@@ -22,10 +26,7 @@
 <string>这里填写名称</string>
 ```
 
-</details>
-
-<details>
-<summary>修改 App 在手机上展示的图标</summary>
+## 修改 App 在手机上展示的图标
 
 #### Android
 
@@ -41,10 +42,7 @@
 
 <img src="img/img01.png" width="600" />
 
-</details>
-
-<details>
-<summary>判断 Release/Debug 用于调试</summary>
+## 判断 Release/Debug 用于调试
 
 #### Android
 
@@ -79,11 +77,7 @@ if (__DEV__) {
 }
 ```
 
-</details>
-
-
-<details>
-<summary>开发模式弹出开发者菜单刷新应用</summary>
+## 开发模式弹出开发者菜单刷新应用
 
 #### Android
 
@@ -93,10 +87,7 @@ if (__DEV__) {
 
 使用 <kbd>⌘</kbd><kbd>R</kbd> 让您的 IOS 模拟器重新加载本地项目，使用 <kbd>⌘</kbd><kbd>T</kbd> 弹出开发者菜单。
 
-</details>
-
-<details>
-<summary>设置允许 HTTP 请求访问</summary>
+## 设置允许 HTTP 请求访问
 
 #### Android
 
@@ -135,10 +126,7 @@ if (__DEV__) {
 </dict>
 ```
 
-</details>
-
-<details>
-<summary>真机配置 IP 调试</summary>
+## 真机配置 IP 调试
 
 #### 配置说明
 
@@ -157,10 +145,7 @@ if (__DEV__) {
 
 > `Xcode` => `Product` => `Scheme` => `Edit Scheme...` => `Run` => `Info` => `Build Configuration` => `Debug`
 
-</details>
-
-<details>
-<summary>Xcode 不用数据线真机调试</summary>
+## Xcode 不用数据线真机调试
 
 通过菜单 `Xcode` => `Product` => `Destination` => `Add Additional Simulators...` 打开设置界面，勾选 `Connect via network`。
 
@@ -172,10 +157,7 @@ if (__DEV__) {
 2. 然后再去勾选 `connect via network`；
 3. 这时手机上会提示信任界面，点击确认即可。
 
-</details>
-
-<details>
-<summary>打包修改 APP 版本号</summary>
+## 打包修改 APP 版本号
 
 #### Android
 
@@ -200,22 +182,16 @@ android {
 <string>1.2.0</string>
 ```
 
-</details>
-
 ## 常见错误
 
-<details>
-<summary>应用反应缓慢，出现卡顿问题</summary>
+### 应用反应缓慢，出现卡顿问题
 
 #### 可能存在的问题
 
 - 查看是否 console 日志打印过度造成。
 - React Native Debugger 页面放到最前面，浏览器窗口不要放到选项卡里面。
 
-</details>
-
-<details>
-<summary>Android: Gradle project sync failed.</summary>
+### Android: Gradle project sync failed.
 
 #### 问题解决方法
 
@@ -223,10 +199,7 @@ android {
 
 <img src="img/img02.png" width="600" />
 
-</details>
-
-<details>
-<summary>iOS: library not found for -lDoubleConversion.</summary>
+### iOS: library not found for -lDoubleConversion.
 
 #### 问题解决方法
 
@@ -234,10 +207,7 @@ Xcode 打开工程文件错误，使用 `*.xcodeproj` 打开工程会报这个�
 
 > 请打开 `*.xcworkspace` 的工程文件，错误将得到解决。
 
-</details>
-
-<details>
-<summary>iOS: symbol(s) not found for architecture i386.</summary>
+### iOS: symbol(s) not found for architecture i386.
 
 #### 问题解决方法
 
@@ -247,5 +217,3 @@ Xcode 打开工程文件错误，使用 `*.xcodeproj` 打开工程会报这个�
 > `Xcode` => `Product` => `Scheme` => `Edit Scheme...` => `Run` => `Info` => `Build Configuration`  
 
 <img src="img/img03.png" width="600" />
-
-</details>
