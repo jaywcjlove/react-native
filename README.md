@@ -20,6 +20,8 @@ React Native
 - [常见错误](#常见错误)
   - [应用反应缓慢出现卡顿问题](#应用反应缓慢出现卡顿问题)
   - [Android: Gradle project sync failed](#android-gradle-project-sync-failed)
+  - [Android: The device needs more free storage to install the application](#android-the-device-needs-more-free-storage-to-install-the-application)
+  - [Android: Cannot convert string value 'UNIFIED_TEST_PLATFORM'](#android-cannot-convert-string-value-unified_test_platform)
   - [iOS: library not found for -lDoubleConversion](#ios-library-not-found-for--ldoubleconversion)
   - [iOS: symbol(s) not found for architecture i386](#ios-symbols-not-found-for-architecture-i386)
 
