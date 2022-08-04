@@ -219,6 +219,16 @@ android {
 
 <img src="img/img02.png" width="600" />
 
+### Android: Cannot convert string value 'UNIFIED_TEST_PLATFORM'
+
+```bash
+convert string value 'UNIFIED_TEST_PLATFORM' to an enum value of type 'com.android.builder.model.AndroidGradlePluginProjectFlags$BooleanFlag' (valid case insensitive values: APPLICATION_R_CLASS_CONSTANT_IDS, TEST_R_CLASS_CONSTANT_IDS, TRANSITIVE_R_CLASS, JETPACK_COMPOSE, ML_MODEL_BINDING)
+```
+
+#### 问题解决方法
+
+你需要下载最新版 [`android-studio-2021.2.1.16-mac_arm.dmg`](https://developer.android.google.cn/studio/archive) 。
+
 ### iOS: library not found for -lDoubleConversion.
 
 #### 问题解决方法
