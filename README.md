@@ -219,6 +219,12 @@ android {
 
 <img src="img/img02.png" width="600" />
 
+### Android: The device needs more free storage to install the application
+
+#### 问题解决方法
+
+<img src="img/img04.png" width="600" />
+
 ### Android: Cannot convert string value 'UNIFIED_TEST_PLATFORM'
 
 ```bash
