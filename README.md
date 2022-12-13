@@ -24,7 +24,7 @@ React Native
   - [Android: Cannot convert string value 'UNIFIED_TEST_PLATFORM'](#android-cannot-convert-string-value-unified_test_platform)
   - [iOS: library not found for -lDoubleConversion](#ios-library-not-found-for--ldoubleconversion)
   - [iOS: symbol(s) not found for architecture i386](#ios-symbols-not-found-for-architecture-i386)
-  - [iOS: Command PhaseScriptExecution failed with a nonzero exit code](#ios-symbols-not-found-for-architecture-i386)
+  - [iOS: Command PhaseScriptExecution failed with a nonzero exit code](#ios-command-phasescriptexecution-failed-with-a-nonzero-exit-code)
 
 <!--idoc:ignore:end-->
 
