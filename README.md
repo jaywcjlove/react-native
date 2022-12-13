@@ -24,6 +24,7 @@ React Native
   - [Android: Cannot convert string value 'UNIFIED_TEST_PLATFORM'](#android-cannot-convert-string-value-unified_test_platform)
   - [iOS: library not found for -lDoubleConversion](#ios-library-not-found-for--ldoubleconversion)
   - [iOS: symbol(s) not found for architecture i386](#ios-symbols-not-found-for-architecture-i386)
+  - [iOS: Command PhaseScriptExecution failed with a nonzero exit code](#ios-symbols-not-found-for-architecture-i386)
 
 <!--idoc:ignore:end-->
 
@@ -255,6 +256,16 @@ Xcode 打开工程文件错误，使用 `*.xcodeproj` 打开工程会报这个�
 > `Xcode` => `Product` => `Scheme` => `Edit Scheme...` => `Run` => `Info` => `Build Configuration`  
 
 <img src="img/img03.png" width="600" />
+
+### iOS: Command PhaseScriptExecution failed with a nonzero exit code
+
+> React-Core-AccessibilityResources Command CodeSign failed with a nonzero exit code
+
+#### 问题解决方法
+
+打开 `Kaychain Access(钥匙串访问)` 应用删除 `Apple Worldwide Developer Relations Certification Authority` 证书
+
+<img src="img/img05.png" width="600" />
 
 ## Contributors
 
