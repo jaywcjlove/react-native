@@ -166,7 +166,9 @@ if (__DEV__) {
 2. 摇晃你的实体真机，调出配置弹窗。
 3. 团队开发可以不安装开发环境。
 
-**`摇晃手机`** => `Configure Bundler` => 设置 `ip` 和 `端口`
+**`摇晃手机`** => `Configure Bundler` => 设置 `ip:端口`
+
+默认端口：`8081` 可以通过参数更改默认端口 `react-native start --port 9999`
 
 #### Android 设置
 
