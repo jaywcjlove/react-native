@@ -109,11 +109,12 @@ if (__DEV__) {
 - i - 在 iOS 上运行
 - a - 在 Android 上运行
 
-> 如果没有起作用可以在命令行使用 `adb shell input keyevent 82` 命令唤起**开发者菜单**
 
 #### Android
 
 按两次 <kbd>R</kbd> 键或从开发者菜单(<kbd>⌘</kbd><kbd>M</kbd>)中选择重新加载(Reload)以预览您的更改。
+
+> 如果没有起作用可以在命令行使用 `adb shell input keyevent 82` 命令唤起**开发者菜单**
 
 #### iOS
 
