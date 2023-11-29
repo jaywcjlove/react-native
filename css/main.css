@@ -43,6 +43,10 @@ a:hover {
   margin: 0 auto;
 }
 
+.warpper dark-mode {
+  font-size: 18px;
+}
+
 markdown-style {
   min-height: 60vh;
   grid-area: main;
@@ -141,8 +145,18 @@ a.gototop:hover {
   color: var(--color-theme-text);
   align-items: center;
 }
+.header .logo:hover {
+  text-decoration: none;
+}
 .header .logo .title {
   padding-left: 8px;
+  display: flex;
+}
+.header .logo .title sup {
+  margin-top: -5px;
+  padding-left: 2px;
+  font-weight: normal;
+  color: var(--color-fg-subtle);
 }
 .header .logo img,
 .header .logo svg {
@@ -198,10 +212,10 @@ section.article-footer a {
   align-items: center;
 }
 
-section.article-footer .edit-button {
+.edit-button {
   padding-right: 8px;
 }
-section.article-footer .edit-button svg {
+.edit-button svg {
   height: 15px;
   margin-right: 6px;
 }
