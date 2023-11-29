@@ -1,6 +1,9 @@
 <!--idoc:ignore:start-->
 React Native
 ===
+
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee)](https://jaywcjlove.github.io/#/sponsor)
+
 <!--idoc:ignore:end-->
 
 一些 React Native 开发上遇到的问题简单记录。
